@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local content workspaces (profiles, research runs, feeds) — never commit user data.
+# These live under $CONTENT_HOME (default ~/Documents/Content), outside the repo,
+# but ignore them here too in case anyone points CONTENT_HOME inside a checkout.
+/Content/
+**/research/
+**/brand/
+
+# Generated feeds / scratch
+*.local.html
