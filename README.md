@@ -4,6 +4,10 @@
 actually performing, and turn it into original content ideas — backed by real
 engagement data, not guesswork. Free, local, and no API key.
 
+![yt-content-radar — the For You feed, showing scored posts, outlier badges, top comments, and generated ideas](docs/for-you-screenshot.png)
+
+> *Demo feed built from public science/explainer channels.*
+
 ---
 
 ## What it is
@@ -80,7 +84,7 @@ No API key, no account, no quota, no paid service.
 Clone into your Claude Code skills directory and invoke it with a slash command:
 
 ```bash
-git clone https://github.com/<you>/yt-content-radar.git ~/.claude/skills/yt-content-radar
+git clone https://github.com/adamjohnlea/yt-content-radar.git ~/.claude/skills/yt-content-radar
 ```
 
 Then in Claude Code:
@@ -97,7 +101,7 @@ your niche, and lets you pick channels to track), then builds your daily feed.
 Clone anywhere and run the scripts directly:
 
 ```bash
-git clone https://github.com/<you>/yt-content-radar.git
+git clone https://github.com/adamjohnlea/yt-content-radar.git
 cd yt-content-radar
 ```
 
